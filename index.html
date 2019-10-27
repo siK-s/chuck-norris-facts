@@ -36,7 +36,7 @@
           return response.data; // SUBTLE difference with Fetch: response.data instead of response.json()
         })
         .then(function(joke) {
-          console.log('data decoded from JSON:', joke);
+          //console.log('data decoded from JSON:', joke);
           // Build a block of HTML
           const jokeHtml = `
             <p><strong>${joke.value}</strong></p>
